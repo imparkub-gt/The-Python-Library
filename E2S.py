@@ -14,11 +14,12 @@
 
 #Entrada:
 
-n1 = input('Escreve um número: ')
-n2 = input('Escreve mais um número: ')
+n1 = float(input('Escreve um número: '))
+n2 = float(input('Escreve mais um número: '))
 #Processamento:
 
 resultado = n1 + n2
 
 #Saída
 
+print(f'O resultado é: {resultado}')
